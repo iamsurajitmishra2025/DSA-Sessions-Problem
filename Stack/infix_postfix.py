@@ -1,3 +1,11 @@
+"""
+1.Infix to Postfix conversion
+Input: A + B * C + D
+Output: ABC*+D+
+Input: ((A + B) - C * (D / E)) + F
+Output: AB+CDE/*-F+
+"""
+
 def precedence(c):
     if c == '^': return 3
     if c in ('/', '*'): return 2

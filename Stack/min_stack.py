@@ -1,4 +1,4 @@
-# Get Minimum in the Stack at O(n)
+# Get Minimum in the Stack at O(1)
 
 class Stack:
     """
